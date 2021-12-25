@@ -1,4 +1,8 @@
 
+body {
+    background-color: ivory;
+}
+
 /* Titles style*/
 h1 {
     text-align: center;
@@ -13,10 +17,11 @@ h1 {
 table {
     margin-left: auto;
     margin-right: auto;
+    width: 650px;
 }
 
 table, th, td {
-    border: 1px solid black;
+    border: 1px solid purple;
 }
 
 td, th {
@@ -25,13 +30,15 @@ td, th {
 
 th {
     text-align: center; 
+    background-color: plum;
 }
 
 td {
     text-align: left;
+
 }
 
 .code {
     font-family: monospace;
-    background-color: beige;
+    background-color: lightcyan;
 }
