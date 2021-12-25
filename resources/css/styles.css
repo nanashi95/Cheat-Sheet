@@ -23,10 +23,15 @@ td, th {
     padding: 10px;
 }
 
+th {
+    text-align: center; 
+}
+
 td {
     text-align: left;
 }
 
-th {
-    text-align: center; 
+.code {
+    font-family: monospace;
+    background-color: beige;
 }
